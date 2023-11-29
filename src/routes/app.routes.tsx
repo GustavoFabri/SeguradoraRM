@@ -12,6 +12,7 @@ export function AppRoutes() {
       <Screen name="home" component={Home} />
       <Screen name="inicio" component={InicioSimulacao} />
       <Screen name="veiculo" component={DadosVeiculo} />
+      <Screen name="orcamento" component={Orcamento} />
       {/* <Screen name="result" component={Result} /> */}
     </Navigator>
   );
