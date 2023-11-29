@@ -11,6 +11,7 @@ export function AppRoutes() {
     <Navigator screenOptions={{ headerShown: false }}>
       <Screen name="home" component={Home} />
       <Screen name="inicio" component={InicioSimulacao} />
+      <Screen name="veiculo" component={DadosVeiculo} />
       {/* <Screen name="result" component={Result} /> */}
     </Navigator>
   );
